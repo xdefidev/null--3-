@@ -659,6 +659,7 @@ async function ClaimTokens() {
     textContribution.innerHTML = `<span style='color: #009393;'>${result[1]}</span> USDT`;
   } catch (e) {
     console.log(e);
+    alert("Token Claim Details Will Be Shared Soon!");
   } finally {
     claimButton.innerHTML = prev;
     claimButton.style.pointerEvents = "all";
